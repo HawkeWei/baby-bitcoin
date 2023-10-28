@@ -29,7 +29,7 @@ pub fn get_hash(value: &[u8]) -> String {
 
 #[cfg(test)]
 mod tests {
-    use crate::utils::{deserialize, serialize};
+    use crate::v1::utils::{deserialize, serialize};
     use serde::{Deserialize, Serialize};
 
     #[derive(Serialize, Deserialize, Debug, PartialEq)]

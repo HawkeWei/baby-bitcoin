@@ -1,5 +1,6 @@
-use bitcoin::blockchain::BlockChain;
-fn main() {
+pub mod v1;
+use v1::blockchain::BlockChain;
+fn v1_test() {
     println!("This is bitcoin example...");
 
     let mut bc = BlockChain::new_blockchain();
@@ -11,4 +12,8 @@ fn main() {
         println!("{:?}", block);
         println!("");
     }
+}
+
+fn main() {
+    v1_test();
 }

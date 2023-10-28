@@ -1,4 +1,4 @@
-use crate::block::Block;
+use crate::v1::block::Block;
 pub struct BlockChain {
     pub blocks: Vec<Block>,
 }
