@@ -10,3 +10,6 @@ chrono = "0.4.31"
 serde = {version = "1.0.190", features = ["derive"]}
 bincode = "1.3.3"
 rust-crypto = "0.2.36"
+
+## v2
+anyhow = "1.0.75" # This library provides anyhow::Error, a trait object based error type for easy idiomatic error handling in Rust applications.

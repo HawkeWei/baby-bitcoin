@@ -14,6 +14,8 @@ fn v1_test() {
     }
 }
 
+pub mod v2;
+
 fn main() {
     v1_test();
 }
