@@ -23,7 +23,7 @@ impl BlockChain {
         Ok(first_block)
     }
     /// 创建区块链
-    pub fn new() -> Result<BlockChain> {
+    pub fn new_blockchain() -> Result<BlockChain> {
         event!(Level::INFO, "New BlockChain...");
         Ok(Self {
             blocks: vec![Self::new_genesis_block()?],

@@ -54,6 +54,7 @@ impl Transaction {
 }
 
 /// 在区块中，将简易版的data改成交易类型
+#[derive(Debug)]
 pub struct Block {
     pub header: BlockHeader,
     pub header_hash: String,
