@@ -14,5 +14,6 @@
 
 ## 【Baby 系列】  
 
-- [baby bitcoin](https://github.com/HawkeWei/baby-bitcoin)
-- [baby groth16](https://github.com/HawkeWei/baby-groth16)
+- [baby bitcoin](https://github.com/brycewai/baby-bitcoin)
+- [baby groth16](https://github.com/brycewai/baby-groth16)
+- [baby halo2](https://github.com/brycewai/baby-halo2)
